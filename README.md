@@ -1,4 +1,4 @@
-# 🚀 MNIST MLP — Python → C → OpenBLAS → OpenMP → CUDA
+# 🚀 From NumPy to CUDA: Implementing and Accelerating an MLP for MNIST Classification in C
 
 从零开始用纯 C 实现高效的 784-512-10 多层感知机，系统对比多种加速后端在 MNIST 上的性能差异。
 
