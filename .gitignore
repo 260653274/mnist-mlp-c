@@ -1,0 +1,40 @@
+# ── Data (MNIST IDX, download per README) ──────────────────────────
+data/
+
+# ── Generated artefacts (regenerate via python/ scripts + training) ─
+weights/
+logs/*.bin
+logs/*.npy
+logs/benchmark_results.txt
+
+# ── Compiled binaries ──────────────────────────────────────────────
+/train_mnist
+/train_mnist_blas
+/train_mnist_omp
+/train_mnist_cuda
+/test_alignment
+/test_alignment_cuda
+/test_train_alignment
+/bench_gemm
+/bench_gemm_blas
+/bench_gemm_omp
+
+# ── Object files ───────────────────────────────────────────────────
+*.o
+*.obj
+
+# ── Python ─────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+
+# ── IDE / tooling local state ──────────────────────────────────────
+.claude/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── OS ─────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
