@@ -225,7 +225,7 @@ make clean        # 清理所有二进制和 .o 文件
 
 ## 许可证
 
-MIT.
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 参考
 
